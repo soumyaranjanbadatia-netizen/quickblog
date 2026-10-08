@@ -177,25 +177,7 @@ const FAQ = () => {
               </div>
 
               {/* Close */}
-              <button
-                type="button"
-                onClick={closeModal}
-                aria-label="Close modal"
-                className="
-                  shrink-0
-                  w-9 h-9
-                  rounded-full
-                  flex items-center justify-center
-                  text-gray-500
-                  bg-gray-100
-                  hover:bg-gray-200
-                  hover:text-gray-700
-                  transition-colors
-                  cursor-pointer
-                "
-              >
-                <FaTimes size={15} />
-              </button>
+             
             </div>
 
             {/* Steps */}
