@@ -198,10 +198,11 @@ export const faqData = [
       "Learn how Quickblog works and understand the basic steps for exploring blogs or getting started as an administrator.",
     buttonText: "Get Started",
     steps: [
-      "Open the Quickblog home page to explore published blogs.",
-      "Use the search bar or categories to find blogs that interest you.",
-      "To create and manage your own blogs, open the Admin Login page.",
-      "New users can create an account from the Register page and then log in to the dashboard.",
+      "Register a new administrator account and log in to the dashboard.",
+      "Open Add Blog from the admin dashboard.",
+      "Upload a thumbnail, enter the title and subtitle, and write your content or use Generate with AI.",
+      "Make sure the thumbnail image is less than 4.5 MB. Larger images may cause an upload error.",
+      "Choose a category and decide whether to publish the blog immediately or keep it as a draft.",
     ],
   },
 
