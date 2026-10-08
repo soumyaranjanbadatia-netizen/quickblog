@@ -46,7 +46,7 @@ const Footer = () => {
         <div className="w-full md:max-w-md mb4">
           <img src={assets.logo} alt="Quickblog" className="w-32 sm:w-44" />
 
-          <p className="mt-3 text-sm leading-6 text-gray-900 text-justify">
+          <p className="mt-3 text-sm leading-6 text-gray-900 text-left">
             Quickblog is a modern space where
             <span className="font-semibold text-primary">
               {" "}
