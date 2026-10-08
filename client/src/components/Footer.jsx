@@ -6,7 +6,6 @@ import {
   FaEnvelope,
   FaShieldAlt,
   FaFileAlt,
-
   FaLinkedinIn,
   FaGithub,
 } from "react-icons/fa";
@@ -37,19 +36,32 @@ const Footer = () => {
   };
 
   return (
-    <footer id='footer' className="px-6 md:px-16 lg:px-24 xl:px-32 bg-primary/3">
+    <footer
+      id="footer"
+      className="px-6 md:px-16 lg:px-24 xl:px-32 bg-primary/3"
+    >
       {/* ================= MAIN FOOTER ================= */}
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-gray-500">
         {/* ================= LOGO + DESCRIPTION ================= */}
-        <div className="w-full md:max-w-md">
-          <Link to="/">
-            <img src={assets.logo} alt="Quickblog" className="w-32 sm:w-44" />
-          </Link>
+        <div className="w-full md:max-w-md mb4">
+          <img src={assets.logo} alt="Quickblog" className="w-32 sm:w-44" />
 
-          <p className="mt-6 text-sm leading-6 text-gray-900">
-            Quickblog is a modern blogging platform where users can explore,
-            discover, and read blogs across different categories in a clean and
-            responsive interface.
+          <p className="mt-3 text-sm leading-6 text-gray-900 text-justify">
+            Quickblog is a modern space where
+            <span className="font-semibold text-primary">
+              {" "}
+              ideas, stories, and perspectives{" "}
+            </span>{" "}
+            come together. Explore blogs across different categories, discover
+            new topics, learn from different viewpoints, and share your own
+            thoughts with others. We believe good content should be easy to
+            discover, enjoyable to read, and simple to share, which is why
+            Quickblog is designed around a
+            <span className="font-semibold text-primary">
+              {" "}
+              clean, focused, and welcoming{" "}
+            </span>{" "}
+            experience.
           </p>
         </div>
 
@@ -61,7 +73,6 @@ const Footer = () => {
               <h3 className="font-semibold text-base text-gray-900 mb-4">
                 {section.title}
               </h3>
-
 
               {/* FOLLOW US */}
 
@@ -115,7 +126,6 @@ const Footer = () => {
               ) : (
                 /* ================================================= */
                 /* QUICK LINKS + NEED HELP */
-                /* ================================================= */
 
                 <ul className="space-y-3">
                   {section.links.map((link, i) => {
@@ -177,7 +187,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-  
 };
 
 export default Footer;
